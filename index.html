@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="keyboard" id="keyboard">
+            <div class="line">
+                <div class='key' rus="`">`</div>
+                <div class="key" rus="1">1</div>
+                <div class="key" rus="2">2</div>
+                <div class="key" rus="3">3</div>
+                <div class="key" rus="4">4</div>
+                <div class="key" rus="5">5</div>
+                <div class="key" rus="6">6</div>
+                <div class="key" rus="7">7</div>
+                <div class="key" rus="8">8</div>
+                <div class="key" rus="9">9</div>
+                <div class="key" rus="0">0</div>
+                <div class="key" rus="-">-</div>
+                <div class="key" rus="=">=</div>
+                <div class="key delete" rus="Backspace">Backspace</div>
+            </div>
+            <div class="line">
+                <div class="key tab" rus="Tab">Tab</div>
+                <div class="key key_letter" rus="й">q</div>
+                <div class="key key_letter" rus="ц">w</div>
+                <div class="key key_letter" rus="у">e</div>
+                <div class="key key_letter" rus="к">r</div>
+                <div class="key key_letter" rus="е">t</div>
+                <div class="key key_letter" rus="н">y</div>
+                <div class="key key_letter" rus="г">u</div>
+                <div class="key key_letter" rus="ш">i</div>
+                <div class="key key_letter" rus="щ">o</div>
+                <div class="key key_letter" rus="з">p</div>
+                <div class="key key_letter" rus="х">[</div>
+                <div class="key key_letter" rus="ъ">]</div>
+                <div class="key key_letter" rus="ё">\</div>
+            </div>
+            <div class="line">
+                <div class="key caps_lock" rus="Caps Lock">
+                    <span class="caps_lock-inner">Caps Lock</span>
+                </div>
+                <div class="key key_letter" rus="ф">a</div>
+                <div class="key key_letter" rus="ы">s</div>
+                <div class="key key_letter" rus="в">d</div>
+                <div class="key key_letter" rus="а">f</div>
+                <div class="key key_letter" rus="п">g</div>
+                <div class="key key_letter" rus="р">h</div>
+                <div class="key key_letter" rus="о">j</div>
+                <div class="key key_letter" rus="л">k</div>
+                <div class="key key_letter" rus="д">l</div>
+                <div class="key key_letter" rus="ж">;</div>
+                <div class="key key_letter" rus="э">'</div>
+                <div class="key enter" rus="Enter">Enter</div>
+            </div>
+            <div class="line">
+                <div class="key shift" id="shift_left" rus="Shift">Shift</div>
+                <div class="key key_letter" rus="я">z</div>
+                <div class="key key_letter" rus="ч">x</div>
+                <div class="key key_letter" rus="с">c</div>
+                <div class="key key_letter" rus="м">v</div>
+                <div class="key key_letter" rus="и">b</div>
+                <div class="key key_letter" rus="т">n</div>
+                <div class="key key_letter" rus="ь">m</div>
+                <div class="key key_letter" rus="б">,</div>
+                <div class="key key_letter" rus="ю">.</div>
+                <div class="key up" id="up" rus="↑">↑</div>
+                <div class="key shift" id="shift_right" rus="Shift">Shift</div>
+            </div>
+            <div class="line">
+                <div class="key command" id="command_left" rus="Control">Control</div>
+                <div class="key alt" id="option_left" rus="Alt">Alt</div>
+                <div class="key space" id="space"> </div>
+                <div class="key alt" id="option_right"rus="Alt">Alt</div>
+                <div class="key left" id="left" rus="←">←</div>
+                <div class="key down" id="down" rus="↓">↓</div>
+                <div class="key right" id="right" rus="→">→</div>
+                <div class="key command" id="command_right" rus="Control">Control</div>
+            </div>
+        </div>
+        <div class="textarea">
+            <textarea type="textarea" rows="5" cols="80" id="textarea"></textarea>
+        </div>
+        <div class="text">Клавиатура создана в системе MacOS</div>
+        <div class="text">Для переключения языка используйте CTRL + ALT</div>
+    </div>
+   
+    <script src="./script.js"></script>
+</body>
+
+</html>
